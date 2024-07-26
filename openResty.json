@@ -1,0 +1,377 @@
+[
+  {
+    "Id": "e30c0b536562c7ab7ef81eb595dfe554f0570803d414dfcaa2bbdc5fe9f819c5",
+    "Created": "2023-04-28T06:40:40.993041425Z",
+    "Path": "/opt/bitnami/scripts/openresty/entrypoint.sh",
+    "Args": [
+      "/opt/bitnami/scripts/openresty/run.sh"
+    ],
+    "State": {
+      "Status": "running",
+      "Running": true,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 23459,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2023-05-13T23:10:07.572924855Z",
+      "FinishedAt": "2023-05-14T07:10:04.989973367+08:00"
+    },
+    "Image": "sha256:75d066787c352a25676bdea1671ec2f52ebf8dd6f17221fe50917165704b4dc9",
+    "ResolvConfPath": "/var/lib/docker/containers/e30c0b536562c7ab7ef81eb595dfe554f0570803d414dfcaa2bbdc5fe9f819c5/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/e30c0b536562c7ab7ef81eb595dfe554f0570803d414dfcaa2bbdc5fe9f819c5/hostname",
+    "HostsPath": "/var/lib/docker/containers/e30c0b536562c7ab7ef81eb595dfe554f0570803d414dfcaa2bbdc5fe9f819c5/hosts",
+    "LogPath": "/var/lib/docker/containers/e30c0b536562c7ab7ef81eb595dfe554f0570803d414dfcaa2bbdc5fe9f819c5/e30c0b536562c7ab7ef81eb595dfe554f0570803d414dfcaa2bbdc5fe9f819c5-json.log",
+    "Name": "/nginx_openresty_1",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "",
+    "ExecIDs": null,
+    "HostConfig": {
+      "Binds": [
+        "/data/docker/nginx/acmedir:/acmedir:rw",
+        "/data/docker/nginx/nginx.conf:/opt/bitnami/openresty/nginx/conf/nginx.conf:rw",
+        "/data/docker/nginx/conf:/opt/bitnami/openresty/nginx/conf/server_blocks:rw",
+        "/tmp:/tmp:rw",
+        "/data/docker/nginx/certs:/certs:rw",
+        "/data/docker/nginx/nginx_logs:/usr/local/nginx/logs:rw"
+      ],
+      "ContainerIDFile": "",
+      "LogConfig": {
+        "Type": "json-file",
+        "Config": {}
+      },
+      "NetworkMode": "nginx_default",
+      "PortBindings": {
+        "18001/tcp": [
+          {
+            "HostIp": "",
+            "HostPort": "18001"
+          }
+        ],
+        "18002/tcp": [
+          {
+            "HostIp": "",
+            "HostPort": "18002"
+          }
+        ],
+        "21194/tcp": [
+          {
+            "HostIp": "",
+            "HostPort": "21194"
+          }
+        ],
+        "8080/tcp": [
+          {
+            "HostIp": "",
+            "HostPort": "80"
+          }
+        ],
+        "8443/tcp": [
+          {
+            "HostIp": "",
+            "HostPort": "443"
+          }
+        ],
+        "9030/tcp": [
+          {
+            "HostIp": "",
+            "HostPort": "9030"
+          }
+        ],
+        "9200/tcp": [
+          {
+            "HostIp": "",
+            "HostPort": "9200"
+          }
+        ]
+      },
+      "RestartPolicy": {
+        "Name": "always",
+        "MaximumRetryCount": 0
+      },
+      "AutoRemove": false,
+      "VolumeDriver": "",
+      "VolumesFrom": [],
+      "CapAdd": null,
+      "CapDrop": null,
+      "CgroupnsMode": "host",
+      "Dns": [],
+      "DnsOptions": [],
+      "DnsSearch": [],
+      "ExtraHosts": null,
+      "GroupAdd": null,
+      "IpcMode": "private",
+      "Cgroup": "",
+      "Links": null,
+      "OomScoreAdj": 0,
+      "PidMode": "",
+      "Privileged": false,
+      "PublishAllPorts": false,
+      "ReadonlyRootfs": false,
+      "SecurityOpt": null,
+      "UTSMode": "",
+      "UsernsMode": "",
+      "ShmSize": 67108864,
+      "Runtime": "runc",
+      "ConsoleSize": [
+        0,
+        0
+      ],
+      "Isolation": "",
+      "CpuShares": 0,
+      "Memory": 0,
+      "NanoCpus": 0,
+      "CgroupParent": "",
+      "BlkioWeight": 0,
+      "BlkioWeightDevice": null,
+      "BlkioDeviceReadBps": null,
+      "BlkioDeviceWriteBps": null,
+      "BlkioDeviceReadIOps": null,
+      "BlkioDeviceWriteIOps": null,
+      "CpuPeriod": 0,
+      "CpuQuota": 0,
+      "CpuRealtimePeriod": 0,
+      "CpuRealtimeRuntime": 0,
+      "CpusetCpus": "",
+      "CpusetMems": "",
+      "Devices": null,
+      "DeviceCgroupRules": null,
+      "DeviceRequests": null,
+      "KernelMemory": 0,
+      "KernelMemoryTCP": 0,
+      "MemoryReservation": 0,
+      "MemorySwap": 0,
+      "MemorySwappiness": null,
+      "OomKillDisable": false,
+      "PidsLimit": null,
+      "Ulimits": null,
+      "CpuCount": 0,
+      "CpuPercent": 0,
+      "IOMaximumIOps": 0,
+      "IOMaximumBandwidth": 0,
+      "MaskedPaths": [
+        "/proc/asound",
+        "/proc/acpi",
+        "/proc/kcore",
+        "/proc/keys",
+        "/proc/latency_stats",
+        "/proc/timer_list",
+        "/proc/timer_stats",
+        "/proc/sched_debug",
+        "/proc/scsi",
+        "/sys/firmware"
+      ],
+      "ReadonlyPaths": [
+        "/proc/bus",
+        "/proc/fs",
+        "/proc/irq",
+        "/proc/sys",
+        "/proc/sysrq-trigger"
+      ]
+    },
+    "GraphDriver": {
+      "Data": {
+        "LowerDir": "/var/lib/docker/overlay2/716966b95966f1cae541716cac639c149cd93208b91421cbc7bd3ed13c3f552a-init/diff:/var/lib/docker/overlay2/8714adce1172da70b526cbd095b23662760e5ec8a350d351c73f20d0dc02d55d/diff:/var/lib/docker/overlay2/76a5667cfe751bc522baa09d0020e984b7d50ed878176c62486ecebef3dd174f/diff:/var/lib/docker/overlay2/0d789bb2fbbb875d5852db10e98983df5754164a64d5b7c7a789ed2e1c5add16/diff:/var/lib/docker/overlay2/9348f484798f5871e3888ea2e7985b6ab9a58568ad1f05f9577df0d47cbd0f51/diff:/var/lib/docker/overlay2/90b7e25141ca2dbbf5fefb0dfd6ab59208b3e9634cb76ed71eab8a27478e4f1c/diff:/var/lib/docker/overlay2/e70ec779b0b8a4b3e70139c8e80f8b15febd20257afff520773b415fceb0040f/diff:/var/lib/docker/overlay2/d6018f8e9b7200a5c52f7fa44a754062853e110abb7030751262f0d344b8475f/diff:/var/lib/docker/overlay2/84e4593868517ac18388234f1831e0bbd2af7157f7a22a4d96524120f8d71abf/diff",
+        "MergedDir": "/var/lib/docker/overlay2/716966b95966f1cae541716cac639c149cd93208b91421cbc7bd3ed13c3f552a/merged",
+        "UpperDir": "/var/lib/docker/overlay2/716966b95966f1cae541716cac639c149cd93208b91421cbc7bd3ed13c3f552a/diff",
+        "WorkDir": "/var/lib/docker/overlay2/716966b95966f1cae541716cac639c149cd93208b91421cbc7bd3ed13c3f552a/work"
+      },
+      "Name": "overlay2"
+    },
+    "Mounts": [
+      {
+        "Type": "bind",
+        "Source": "/data/docker/nginx/certs",
+        "Destination": "/certs",
+        "Mode": "rw",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/data/docker/nginx/nginx.conf",
+        "Destination": "/opt/bitnami/openresty/nginx/conf/nginx.conf",
+        "Mode": "rw",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/data/docker/nginx/conf",
+        "Destination": "/opt/bitnami/openresty/nginx/conf/server_blocks",
+        "Mode": "rw",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/tmp",
+        "Destination": "/tmp",
+        "Mode": "rw",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/data/docker/nginx/nginx_logs",
+        "Destination": "/usr/local/nginx/logs",
+        "Mode": "rw",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/data/docker/nginx/acmedir",
+        "Destination": "/acmedir",
+        "Mode": "rw",
+        "RW": true,
+        "Propagation": "rprivate"
+      }
+    ],
+    "Config": {
+      "Hostname": "e30c0b536562",
+      "Domainname": "",
+      "User": "1001",
+      "AttachStdin": false,
+      "AttachStdout": false,
+      "AttachStderr": false,
+      "ExposedPorts": {
+        "18001/tcp": {},
+        "18002/tcp": {},
+        "21194/tcp": {},
+        "8080/tcp": {},
+        "8443/tcp": {},
+        "9030/tcp": {},
+        "9200/tcp": {}
+      },
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "PATH=/opt/bitnami/openresty/bin:/opt/bitnami/openresty/luajit/bin:/opt/bitnami/common/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "HOME=/",
+        "OS_ARCH=amd64",
+        "OS_FLAVOUR=debian-10",
+        "OS_NAME=linux",
+        "BITNAMI_APP_NAME=openresty",
+        "BITNAMI_IMAGE_VERSION=1.19.9-1-debian-10-r71"
+      ],
+      "Cmd": [
+        "/opt/bitnami/scripts/openresty/run.sh"
+      ],
+      "Image": "docker.io/bitnami/openresty:1.19",
+      "Volumes": {
+        "/acmedir": {},
+        "/certs": {},
+        "/opt/bitnami/openresty/nginx/conf/nginx.conf": {},
+        "/opt/bitnami/openresty/nginx/conf/server_blocks": {},
+        "/tmp": {},
+        "/usr/local/nginx/logs": {}
+      },
+      "WorkingDir": "/app",
+      "Entrypoint": [
+        "/opt/bitnami/scripts/openresty/entrypoint.sh"
+      ],
+      "OnBuild": null,
+      "Labels": {
+        "com.docker.compose.config-hash": "11f4dfa485c5666159c5f499f1ef03657ceffda41a791909a7d4e48c9d9e773f",
+        "com.docker.compose.container-number": "1",
+        "com.docker.compose.oneoff": "False",
+        "com.docker.compose.project": "nginx",
+        "com.docker.compose.project.config_files": "docker-compose.yml",
+        "com.docker.compose.project.working_dir": "/data/docker/nginx",
+        "com.docker.compose.service": "openresty",
+        "com.docker.compose.version": "1.29.2",
+        "maintainer": "Bitnami <containers@bitnami.com>"
+      }
+    },
+    "NetworkSettings": {
+      "Bridge": "",
+      "SandboxID": "cb1d63216480bbe401a8a5dc52cdf8fdf4cc90c02c56ee058c9a0a7bee165cb9",
+      "HairpinMode": false,
+      "LinkLocalIPv6Address": "",
+      "LinkLocalIPv6PrefixLen": 0,
+      "Ports": {
+        "18001/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "18001"
+          }
+        ],
+        "18002/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "18002"
+          }
+        ],
+        "21194/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "21194"
+          }
+        ],
+        "8080/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "80"
+          }
+        ],
+        "8443/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "443"
+          }
+        ],
+        "9030/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "9030"
+          }
+        ],
+        "9200/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "9200"
+          }
+        ]
+      },
+      "SandboxKey": "/var/run/docker/netns/cb1d63216480",
+      "SecondaryIPAddresses": null,
+      "SecondaryIPv6Addresses": null,
+      "EndpointID": "",
+      "Gateway": "",
+      "GlobalIPv6Address": "",
+      "GlobalIPv6PrefixLen": 0,
+      "IPAddress": "",
+      "IPPrefixLen": 0,
+      "IPv6Gateway": "",
+      "MacAddress": "",
+      "Networks": {
+        "nginx_default": {
+          "IPAMConfig": null,
+          "Links": null,
+          "Aliases": [
+            "e30c0b536562",
+            "openresty"
+          ],
+          "NetworkID": "8dc487bfaa1b3bb7a85ab772885b3bf6097eed47fef23e36743b51d65baab1a1",
+          "EndpointID": "5843d6048b03ad70d0a0a3aef0f29a7f98c09c0c1d05369a79599df08c8e65ec",
+          "Gateway": "172.19.0.1",
+          "IPAddress": "172.19.0.2",
+          "IPPrefixLen": 16,
+          "IPv6Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "MacAddress": "02:42:ac:13:00:02",
+          "DriverOpts": null
+        }
+      }
+    }
+  }
+]
