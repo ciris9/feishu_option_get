@@ -1,0 +1,129 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": false,
+    "items": [
+      {
+        "field_id": "fldK5HMaiC",
+        "field_name": "项目名称",
+        "is_primary": true,
+        "property": null,
+        "type": 1,
+        "ui_type": "Text"
+      },
+      {
+        "field_id": "fld1AhrCak",
+        "field_name": "资源平台",
+        "is_primary": false,
+        "property": {
+          "options": [
+            {
+              "color": 4,
+              "id": "optscBnUvs",
+              "name": "华为云"
+            },
+            {
+              "color": 5,
+              "id": "optfnXtgFR",
+              "name": "亚马逊云"
+            },
+            {
+              "color": 6,
+              "id": "optSPL0iK1",
+              "name": "阿里云"
+            },
+            {
+              "color": 7,
+              "id": "optQgKpZBd",
+              "name": "微软云"
+            }
+          ]
+        },
+        "type": 4,
+        "ui_type": "MultiSelect"
+      },
+      {
+        "field_id": "fldUSXeAqu",
+        "field_name": "资源类型",
+        "is_primary": false,
+        "property": {
+          "options": [
+            {
+              "color": 0,
+              "id": "optSIUP25Q",
+              "name": "服务器"
+            },
+            {
+              "color": 1,
+              "id": "optW5zambY",
+              "name": "数据库"
+            },
+            {
+              "color": 2,
+              "id": "optit4eXFr",
+              "name": "其他"
+            },
+            {
+              "color": 3,
+              "id": "optTHe83Pu",
+              "name": "消息队列"
+            },
+            {
+              "color": 4,
+              "id": "optc7MSRNF",
+              "name": "对象存储"
+            },
+            {
+              "color": 5,
+              "id": "optGMHyi42",
+              "name": "域名"
+            }
+          ]
+        },
+        "type": 4,
+        "ui_type": "MultiSelect"
+      },
+      {
+        "field_id": "fldr17uBw4",
+        "field_name": "所属环境",
+        "is_primary": false,
+        "property": {
+          "options": [
+            {
+              "color": 0,
+              "id": "optKV5QPRs",
+              "name": "开发测试"
+            },
+            {
+              "color": 1,
+              "id": "optPGhNSRo",
+              "name": "生产"
+            },
+            {
+              "color": 2,
+              "id": "opt9Sb89Wp",
+              "name": "预生产"
+            }
+          ]
+        },
+        "type": 4,
+        "ui_type": "MultiSelect"
+      },
+      {
+        "field_id": "fldLF0QTnV",
+        "field_name": "父记录",
+        "is_primary": false,
+        "property": {
+          "multiple": false,
+          "table_id": "tblUCivHDRkAr16M",
+          "table_name": "运维资源相关"
+        },
+        "type": 18,
+        "ui_type": "SingleLink"
+      }
+    ],
+    "page_token": "fldLF0QTnV",
+    "total": 5
+  },
+  "msg": "success"
+}

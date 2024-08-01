@@ -1,0 +1,52 @@
+{
+  "code": 0,
+  "data": {
+    "msg": "",
+    "code": 0,
+    "data": {
+      "result": {
+        "i18nResources": [
+          {
+            "isDefault": true,
+            "texts": {
+              "@i18n@options_1_name_3": "值3",
+              "@i18n@options_1_name_2": "值2",
+              "@i18n@options_1_name_1": "值1"
+            },
+            "locale": "zh_cn"
+          },
+          {
+            "isDefault": false,
+            "texts": {
+              "@i18n@options_1_name_3": "value3",
+              "@i18n@options_1_name_2": "value2",
+              "@i18n@options_1_name_1": "value1"
+            },
+            "locale": "en_us"
+          }
+        ],
+        "nextPageToken": "",
+        "options": [
+          {
+            "id": "option_0_id_2juOq8EFseX1vZrbsBldO1cL3Vl",
+            "value": "AIGC"
+          },
+          {
+            "id": "option_0_id_2juOq4ZcjziYGtF6ajQBBqGcxtx",
+            "value": "AT7"
+          },
+          {
+            "id": "option_0_id_2juOq89D44KphXSCBAKdk95tgQL",
+            "value": "AT6"
+          },
+          {
+            "id": "option_0_id_2juOq5iYBQjEVD4bbyHeIk3266F",
+            "value": "ADX"
+          }
+        ],
+        "hasMore": false
+      }
+    }
+  },
+  "msg": "success"
+}
